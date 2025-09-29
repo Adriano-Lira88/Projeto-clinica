@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&display=swap');
+
+h1{
+  font-family: "Arizonia", cursive;
+  font-size: 60px;
+  text-shadow: 3px 3px 3px #040404;
+  color: white;
+}
+body {
+    background-color: #bb9469;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;    
+}
+
+.wrapper {
+    width: 100%;
+    display: flex;
+    margin: 0 auto; 
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 190%;
+    background-size: cover;
+    background-position: center;
+    height: 160px;    
+}
+.menu {
+    width: 40%;
+    padding: 10px 20px 0px;
+    height: 100%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+}
+a{
+    color: #040404;
+    text-shadow: 5px,5px,5px white;
+}
+.header {
+    min-height: 160px;
+}
+.content {
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 400%;
+    padding:20px;
+}
+.titulotabela{
+    text-align: center;
+    font-family: "Arizonia", cursive;
+    font-size: 30px;
+}
+.borda {
+   padding: 10px;
+   border-spacing: 10px;
+   border-radius: 10px;
+   border-color: #040404;
+   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.9);
+   background-color:white;
+   color: #bb9469;
+}
+.footer {
+    background-color: #bb9469;  
+    position: static;
+    bottom: 0;
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+    margin: 10px;
+    padding-top: 20px;
+}
+.a-brands fa-square-whatsapp{
+    font-size: 20px;
+}
